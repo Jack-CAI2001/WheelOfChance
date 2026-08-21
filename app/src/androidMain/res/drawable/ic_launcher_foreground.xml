@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shadow for the wheel -->
+    <path
+        android:fillColor="#44000000"
+        android:pathData="M54,54m-32,2a32,32 0 1,1 64,0a32,32 0 1,1 -64,0" />
+
+    <!-- Wheel Segments -->
+    <!-- Segment 1: Red -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M54,54 L84,54 A30,30 0 0,1 75.21,75.21 Z" />
+    <!-- Segment 2: Orange -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M54,54 L75.21,75.21 A30,30 0 0,1 54,84 Z" />
+    <!-- Segment 3: Yellow -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M54,54 L54,84 A30,30 0 0,1 32.79,75.21 Z" />
+    <!-- Segment 4: Green -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M54,54 L32.79,75.21 A30,30 0 0,1 24,54 Z" />
+    <!-- Segment 5: Teal -->
+    <path
+        android:fillColor="#009688"
+        android:pathData="M54,54 L24,54 A30,30 0 0,1 32.79,32.79 Z" />
+    <!-- Segment 6: Blue -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M54,54 L32.79,32.79 A30,30 0 0,1 54,24 Z" />
+    <!-- Segment 7: Purple -->
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M54,54 L54,24 A30,30 0 0,1 75.21,32.79 Z" />
+    <!-- Segment 8: Pink -->
+    <path
+        android:fillColor="#E91E63"
+        android:pathData="M54,54 L75.21,32.79 A30,30 0 0,1 84,54 Z" />
+
+    <!-- Hub -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-8,0a8,8 0 1,1 16,0a8,8 0 1,1 -16,0" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M54,54m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" />
+
+    <!-- Pointer -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,18 L58,26 L50,26 Z" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M54,20 L57,25 L51,25 Z" />
+
+</vector>
